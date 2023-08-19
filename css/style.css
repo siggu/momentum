@@ -1,8 +1,108 @@
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 90%;
+}
+
 .hidden {
     display: none;
 }
 
-img {
-    width: 30%;
-    height: 30%;
+.main {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.clock {
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    padding: 30px;
+}
+
+#clock,
+#quote,
+#weather,
+#greeting,
+#todo-list {
+    color: white;
+}
+
+#login-form {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#login-form input,
+button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    color: white;
+    outline: none;
+    opacity: 70%;
+    padding-bottom: 5px;
+}
+
+#login-form button {
+    border-bottom: none;
+}
+
+::placeholder {
+    color: white;
+    opacity: 70%;
+    text-align: center;
+}
+
+.greeting {
+    align-items: center;
+    text-align: center;
+    font-size: 9px;
+}
+
+#todo-form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    color: white;
+    outline: none;
+    opacity: 70%;
+    padding-bottom: 5px;
+    width: 200px;
+}
+
+#todo-list button {
+    border-bottom: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    opacity: 50%;
+}
+
+#music-player {
+    align-items: center;
+    text-align: center;
+}
+
+.recommend {
+    color: white;
+}
+
+video {
+    width: 500px;
+    height: 280px;
 }
